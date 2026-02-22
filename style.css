@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1D227C;
+}
+/* the navigation bar */
+
+nav{
+     background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;  
+    padding: 0 30px;
+    
+}
+nav p{
+    background-color: #f9cc48;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+} 
+ul{
+    display: flex;
+    list-style: none;
+   
+    padding: 10px;
+   
+    align-items: center;
+    font-size: 20px;
+}
+ul li{
+    
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;  
+}
+/* Profile Section */
+.profile{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-radius: 30%;
+    mix-blend-mode:lighten;
+}
+.text{
+    color: white;
+}
+.text h2{
+    font-size: 40px;
+}
+.text h1{
+    text-transform:capitalize;
+    font-size: 50px;
+}
+.text p{
+    font-size: 30px;
+}
+/* languages */
+.language ul{
+    justify-content: space-around;
+    background-color: #12166b;
+    color: #f9cc48;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: #f9cc48;
+    margin: 0 20px;
+}
+.about_me{
+    color: white;
+    margin: 20px 30px;
+    
+    display: flex;
+    border-style: double;
+    justify-content: space-around;
+    border-color:#12166b;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.about_me h1{
+    color: #f9cc48;
+    text-align: center;
+}
+.about{
+    width: 40%;
+    font-size: 15px;
+    
+}
+.projects li{
+    font-size: 15px;
+}
+.achievements{
+    display: flex;
+    
+}
+.achieved{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+}
+/* footer */
+.footer{
+    background-color: white;
+    margin-top: 40px;
+    
+   
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+}
+.contacts ul{
+    font-size: 30px;
+}
+.copy{
+    text-align: center;
+    font-size: 20px;
+   padding: 5px;
+    background-color: rgb(245, 242, 242);
+    
+}
